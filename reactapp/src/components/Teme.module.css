@@ -1,0 +1,12 @@
+.button1 {
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+    width: 10em;
+    height: 3em;
+    font-size: 0.9em;
+    border-radius: 50px;
+}
+
+#tm1 {
+    background-color: green;
+}

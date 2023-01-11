@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.div1 {
+    width: 100%;
+    height: 50%;
+    background-color: rgb(35, 36, 36);
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+
+}
+
+.div1 > form {
+    display: grid;
+    grid-template-columns: repeat(1, 30em);
+    grid-template-rows: repeat(3, 2em);
+    grid-gap: 20px
+}
+
+.div1 > form > input {
+    outline: 0;
+    background: transparent;
+    border: 1px solid white;
+}
+
+.div1 > form > input[type="submit"] {
+    color: white;
+}
+
+.text:hover, .pass:hover {
+    height: 3em;
+}

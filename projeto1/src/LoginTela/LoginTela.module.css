@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+}
+
+.div1 {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 > h2 {
+    font-family: 'Lato', sans-serif;
+    position: absolute;
+    top: 25%;
+    color: rgb(21, 235, 21);
+    font-size: 1em;
+}
+
+.div1 > form {
+    grid-gap: 1em;
+    display: grid;
+    grid-template-columns: repeat(1, 25em);
+    grid-template-rows: repeat(3, 3em);
+}
+
+.div1 > form > input {
+    outline: 0;
+    border: 0.1em solid rgb(21, 235, 21);
+    text-indent: 2em;
+}
+
+.div1 > form > input::placeholder {
+    color: rgb(125, 155, 125);
+}
+
+.buttonLogin {
+    background: rgb(21, 235, 21);
+    font-family: 'Lato', sans-serif;
+    outline: 0;
+    color: white;
+    font-weight: 600;
+    font-size: 1em;
+    border: none;
+}
+
+.p {
+    color:rgb(21, 235, 21);
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
