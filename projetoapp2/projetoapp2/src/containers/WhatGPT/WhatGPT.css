@@ -1,0 +1,90 @@
+.whatGPT {
+    position: relative;
+    top: 5em;
+    width: 83%;
+    margin: auto;
+    height: max-content;
+    background: linear-gradient(140deg, rgba(0, 119, 255, 0.651) , var(--color-blog), var(--color-blog), var(--color-blog), var(--color-blog), rgba(0, 162, 255, 0.411));
+    padding: 3em;
+}
+
+.line {
+    height: 0.2em;
+    width: 2em;
+    background: var(--gradient-bar);
+}
+
+.whatGPT > .inicio, 
+.whatGPT > .inicio2,
+.whatGPT > .inicio3 {
+    width: 100%;
+    height: max-content;
+}
+
+.inicio > h3, 
+.inicio2 > h3,
+.inicio3 > h3 {
+    color: white;
+}
+
+.inicio > p, 
+.inicio2 > p,
+.inicio3 > p {
+    color: var(--color-text);
+}
+
+.whatGPT > .inicio > h3 {
+    margin-top: 1em;
+    display: inline-block;
+}
+
+.whatGPT > .inicio > .text {
+    width: 70%;
+    display: inline-flex;
+    height: 5em;
+    margin-left: 10%;
+}
+
+.whatGPT > .inicio > .text > p {
+    color: var(--color-text);
+
+}
+
+.whatGPT > .inicio2 {
+    margin-top: 3em;
+    display: flex;
+}
+
+.whatGPT > .inicio2 > h2 {
+    background-clip: text;
+    background: linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.whatGPT > .inicio2 > p {
+    color: chocolate;
+    font-size: 0.7em;
+    position: absolute;
+    right: 5%;
+}
+
+.inicio3  {
+    margin-top: 4em;
+    display: flex;
+}
+
+.inicio3 > div {
+    width: 33%;
+    margin: 0.5em;
+}
+
+.inicio3 > div > h3 {
+    color: white;
+    margin-top: 1.2em;
+}
+
+.inicio3 > div > p {
+    color: var(--color-text);
+    margin-top: 1.2em;
+}

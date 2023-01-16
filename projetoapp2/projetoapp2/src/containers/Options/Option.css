@@ -1,0 +1,68 @@
+.containerCentral {
+    position: relative;
+    top: 7em;
+    width: 82%;
+    margin: auto;
+    height: max-content;
+}
+
+.containerCentral > h1 {
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+    background-clip: text;
+    -webkit-backface-text: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.containerCentral > article {
+    margin-top: 5em;
+    width: 100%;
+    height: max-content;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 2em;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.redfull {
+    position: absolute;
+    bottom: 2em;
+}
+
+.containerCentral > article > div > img {
+    width: 100%;
+}
+
+.containerCentral > article > div > p {
+    color: white;
+    font-size: 0.8em;
+    font-weight: 600;
+    margin: 1.2em 0 0 1.2em;
+}
+
+.containerCentral > article > div > h3 {
+    margin: 1em 0 0 0.9em;
+    color: white;
+}
+
+
+.containerCentral > article > div {
+    background: var(--color-blog);
+    border-radius: 30px 0 0 0;
+    position: relative;
+}
+
+.containerCentral > article > #div1 {
+    grid-area: 1 / 1 / 3 / 2;
+    width: 22em;
+    height: 100%;
+}
+
+.containerCentral > article > #div2,
+.containerCentral > article > #div3,
+.containerCentral > article > #div4,
+.containerCentral > article > #div5 {
+    height: 20em;
+    width: 16em;
+    position: relative;
+}

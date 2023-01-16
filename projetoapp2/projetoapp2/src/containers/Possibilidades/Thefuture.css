@@ -1,0 +1,50 @@
+.Thefuture-div {
+    width: 82%;
+    margin: auto;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.Thefuture-div > .div-img {
+    width: 50%;
+    margin-bottom: 2em;
+}
+
+.Thefuture-div > .div-img > img {
+    width: 70%;
+}
+
+.Thefuture-div > .text {
+    width: 50%;
+    padding: 1em;
+    position: relative;
+}
+
+.Thefuture-div > .text > article > .p1 {
+    color: #6195c9;
+    padding: 0.5em;
+}
+
+.Thefuture-div > .text > article > .h3 {
+    background: linear-gradient(to right, #9f58eb 1.84%, #f5691e 102.67%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 0.5em;
+}
+
+.Thefuture-div >  .text > article > .p2 {
+    color: var(--color-text);
+    padding: 0.5em;
+}
+
+.Thefuture-div > .text > article > .p3 {
+    color: chocolate;
+    padding: 0.5em;
+}
+
+.Thefuture-div > .text > article {
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,30 @@
+.registerbar {
+    width: 82%;
+    margin: auto;
+    margin-top: 5em;
+    height: 9em;
+    padding: 3em;
+    background: linear-gradient(103.22deg, #AE67FA -13.86%, #F49867 99.55%);
+}
+
+.registerbar > p {
+    font-size: 0.9em;
+    font-weight: 600;
+}
+
+.registerbar > div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1em;
+}
+
+.registerbar > div > button {
+    color: white;
+    width: 10em;
+    background-color: black;
+    padding: 0.8em;
+    font-weight: 600;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+}

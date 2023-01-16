@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 83%;
+    height: 2.3em;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    margin: auto;
+    position: relative;
+    top: 2.2em;
+}
+
+header > p {
+    margin: 2px;
+}
+
+.itemsHeader1 {
+    display: flex;
+    align-items: center;
+    width: 60%;
+    height: 2.3em;
+    position: absolute;
+    left: 0;
+}
+
+.itemsHeader1 > h3 {
+    font-weight: 700;
+}
+
+.itemsHeader1 > p {
+    margin: 1.2em;
+}
+
+.itemsHeader2 {
+    display: flex;
+    align-items: center;
+    height: 1.5em;
+}
+
+.itemsHeader2 > p:nth-child(2) {
+    margin-right: 0.9em;
+}
+
+#p-login {
+    width: 6em;
+    text-align: center;
+    padding: 0.5em;
+    background-color: chocolate;
+    border-radius: 0.2em;
+}
+
+.menuClick {
+    display: none;
+}
+
+header > .itemsHeader2 > .menu {
+    width: 100%;
+    height: 10em;
+    border: 2px solid red;
+    position: absolute;
+    bottom: -10em;
+}
+
